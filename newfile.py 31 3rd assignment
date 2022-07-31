@@ -1,0 +1,14 @@
+#Ques 3:
+
+def cap_count(str):
+       a = 0
+       b = 0
+for i in str:
+ if i.isupper():
+        a = a+1
+ elif i.islower():
+         b = b+1
+ else:
+      pass
+     return print('No of upper case character: {} \n No of lower case character: {}'.format(a, b))
+     cap_count("The quick Brown Fox")
